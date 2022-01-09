@@ -41,10 +41,10 @@ app.use(middleware.userGet)
 /*
  * Routers
  */
-app.use('/login', loginRouter)
-app.use('/signup', signupRouter)
-app.use('/video', videoRouter)
-app.use('/s3Url', awsRouter)
+app.use('/api/login', loginRouter)
+app.use('/api/signup', signupRouter)
+app.use('/api/video', videoRouter)
+app.use('/api/s3Url', awsRouter)
 
 /*
  * Error Handling
